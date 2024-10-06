@@ -1,0 +1,80 @@
+/* Body background with soft gradient */
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container */
+#container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header */
+#head {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Birthday Image */
+.birthday-image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffadad; /* Soft red border */
+    margin-bottom: 10px;
+}
+
+/* Box around each birthday person */
+#box {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    background-color: #ffffff; /* White card background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+/* Name and Age */
+#name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#name rt {
+    display: block;
+    color: #888;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+/* Button */
+.clear-button {
+    background-color: #9ae5e5; /* Soft teal */
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clear-button:hover {
+    background-color: #77baba;
+}
